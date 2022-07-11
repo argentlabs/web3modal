@@ -3,15 +3,15 @@
 1. Install Provider Package
 
 ```bash
-npm install --save @argent-connect/core
+npm install --save @argent/login
 # OR
-yarn add @argent-connect/core
+yarn add @argent/login
 ```
 
 2. Set Provider Options
 
 ```typescript
-import * as ArgentLogin from "@argent-connect/core";
+import * as ArgentLogin from "@argent/login";
 
 const providerOptions = {
   argent: {
