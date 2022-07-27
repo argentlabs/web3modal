@@ -46,7 +46,7 @@ export * from "../injected";
 
 export const ARGENT: IProviderInfo = {
   id: "argent",
-  name: "Login with Argent",
+  name: "Argent",
   logo: ArgentLogo,
   type: "qrcode",
   check: "isArgent",

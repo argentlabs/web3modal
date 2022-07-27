@@ -11,7 +11,7 @@ yarn add @argent/login
 2. Set Provider Options
 
 ```typescript
-import * as ArgentLogin from "@argent/login";
+import ArgentLogin from "@argent/login";
 
 const providerOptions = {
   argent: {
