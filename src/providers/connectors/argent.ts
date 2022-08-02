@@ -9,7 +9,7 @@ const ConnectToArgent = async (
   ArgentLogin: any,
   opts: IArgentConnectorOptions
 ) => {
-  const provider = ArgentLogin.getEthereumProvider(opts);
+  const provider = await ArgentLogin.getEthereumProvider(opts);
   await provider.enable();
   return provider;
 };
