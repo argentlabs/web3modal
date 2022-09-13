@@ -20,29 +20,5 @@ import opera from "./opera";
 import web3auth from "./web3auth";
 import bitkeep from "./bitkeep";
 import starzwallet from "./starzwallet";
-
-export {
-  injected,
-  argent,
-  walletconnect,
-  boltx,
-  portis,
-  torus,
-  fortmatic,
-  venly,
-  authereum,
-  burnerconnect,
-  mewconnect,
-  dcentwallet,
-  bitski,
-  frame,
-  binancechainwallet,
-  coinbasewallet,
-  walletlink,
-  sequence,
-  clvwallet,
-  opera,
-  bitkeep,
-  starzwallet,
-  web3auth
-};
+export { injected, argent, walletconnect, boltx, portis, torus, fortmatic, venly, authereum, burnerconnect, mewconnect, dcentwallet, bitski, frame, binancechainwallet, coinbasewallet, walletlink, sequence, clvwallet, opera, bitkeep, starzwallet, web3auth };
+//# sourceMappingURL=index.d.ts.map

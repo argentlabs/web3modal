@@ -1,4 +1,6 @@
 // @ts-ignore
+import ArgentLogo from "../logos/argent.svg";
+// @ts-ignore
 import WalletConnectLogo from "../logos/walletconnect-circle.svg";
 // @ts-ignore
 import PortisLogo from "../logos/portis.svg";
@@ -41,6 +43,14 @@ import StarzWalletLogo from "../logos/starzwallet.svg";
 import { IProviderInfo } from "../../helpers";
 
 export * from "../injected";
+
+export const ARGENT: IProviderInfo = {
+  id: "argent",
+  name: "Argent",
+  logo: ArgentLogo,
+  type: "qrcode",
+  check: "isArgent",
+};
 
 export const WALLETCONNECT: IProviderInfo = {
   id: "walletconnect",
